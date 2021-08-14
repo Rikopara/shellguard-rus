@@ -1,0 +1,34 @@
+{
+  "itemName" : "sgassaultgunshipcontroller",
+  "level" : 1,
+  "price" : 30000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "description" : "Creates an Olympus-I gunship from stored nanites.",
+  "shortdescription" : "O-I Assault Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "sgassaultgunship.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "sggunshipassault",
+  "vehicleBoundingBox" : [-11, -4, 11, 4],
+  "vehicleImage" : "/vehicles/gunship/sgbasicgunshipwarp.png:warpInPart1.1",
+
+  "animationParts" : {
+    "casing" : "sgassaultgunshipcontroller.png"
+  },
+
+  "inventoryIcon" : "/items/active/vehiclecontroller/sgassaultgunshipcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/sgassaultgunshipcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/sgassaultgunshipcontroller.png:full"
+
+}
